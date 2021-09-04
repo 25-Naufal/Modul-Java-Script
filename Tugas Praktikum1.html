@@ -1,0 +1,32 @@
+<HTML>
+    <HEAD>
+    <TITLE>Kondisi If Else</TITLE>
+    </HEAD>
+    <BODY>
+    <SCRIPT LANGUAGE = "JavaScript">
+    //<!--
+        var nilai = prompt("Masukkan nilai (0-100): ", 0);
+        var hasil = "";
+        if (nilai >= 93)
+            hasil= "Nilai A";
+
+        else if (nilai > 83 && nilai < 93)
+            hasil= "Nilai B";
+
+        else if (nilai >= 75 && nilai <= 82)
+            hasil= "Nilai C";
+
+        else if (nilai >= 50 && nilai <= 74)
+            hasil= "Nilai D";
+
+        else if (nilai >= 0 && nilai <= 49)
+            hasil= "Nilai E";
+
+        else   
+            hasil= "Error";
+            
+        document.write("Hasil : "+hasil);
+    //-->
+    </SCRIPT>
+    </BODY>
+    </HTML>
